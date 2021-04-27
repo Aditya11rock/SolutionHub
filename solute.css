@@ -1,0 +1,258 @@
+body {
+
+width: 100%;
+
+background-color: rgb(192, 194, 194);
+padding: 0px;
+
+}
+#headspace{
+
+  width: 100%;
+  height: 165px;
+  
+  background-color: rgb(35, 37, 33);
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+  
+
+}
+#pagename {
+
+  color: white;
+  font-size: 60px;
+  font-family:cursive;
+  margin: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+
+}
+#headspace h3{
+
+  color: rgb(255, 60, 0);
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 3px;
+
+}
+
+
+#man2 {
+
+  color: blueviolet;
+  font-size: 75px;
+}
+
+#man1 {
+
+  font-size: 100px;
+  color: red;
+  
+
+}
+#menuitems {
+
+width: 100%;
+height: 70px;
+background-color: red;
+border-radius: 10px;
+text-align: center;
+font-size: 25px;
+
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+#menuitems li{
+
+list-style: none;
+position: relative;
+display: inline-block;
+padding-left: 10px;
+margin: 0px;
+margin-left: 10px;
+color: white;
+
+}
+
+#menuitems li :hover{
+
+  color: cyan;
+  cursor: pointer;
+  
+
+  box-shadow: 0px 0px 10px #b9e8f7;
+  
+}
+a{
+  text-decoration: none;
+  color: #ddd;
+  transition : zoom 5s;
+}
+
+#menuitems ul ul{
+  margin-top: 0px;
+  position: absolute;
+  font-size: 25px;
+  background-color: rgb(31, 32, 31);
+  
+  border: 3px solid #ddd;
+  
+  border-radius: 15px;
+  top: 70px;
+  opacity: 0;
+  visibility: hidden;
+
+}
+#menuitems ul ul li{
+
+  border-bottom: 1px solid red;
+  margin: 5px;
+  padding: 5px;
+  
+}
+#menuitems ul li:hover > ul{
+
+  opacity: 1;
+  visibility: visible;
+
+}
+
+#menuitems ul ul ul {
+
+  transition-delay: 200ms;
+  margin-left: 190px;
+  margin-top: -75px;
+  opacity: 0;
+  visibility: hidden;
+
+}
+#menuitems ul ul ul li{
+
+  width: 160px;
+  padding: 2px;
+  
+
+
+}
+
+#mad7 ul{
+
+  transition-delay: 500ms;
+  margin-left: 150px;
+  margin-top: -75px;
+  opacity: 0;
+  visibility: hidden;
+
+}
+#menuitems ul ul li:hover > ul{
+
+  opacity: 1;
+  visibility: visible;
+  transition-delay:500ms;
+
+  
+
+}
+#menuitems ul ul li:hover{
+
+  color: black;
+  box-shadow: none;
+
+
+}
+
+#menuitems ul ul ul li:hover{
+
+  color: blue;
+  text-shadow: 1px 1px red;
+  box-shadow: none;
+
+}
+
+#menuitems ul ul li a:hover{
+
+  color: rgb(0, 255, 98);
+  box-shadow: none;
+  zoom: 1.05;
+  text-shadow: 1px 2px rgb(241, 237, 237);
+
+}
+
+
+
+
+
+#questdis {
+
+text-align: center;
+
+}
+#questdis h2{
+
+font-size: 35px;
+
+}
+
+#quest1 {
+width: 900px;
+height: 350px;
+border-radius: 30px;
+border: 3px black solid;
+
+}
+
+#answerspace {
+
+  width: 100%;
+
+}
+
+#anspic{
+
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin-right: 5px;
+
+}
+#anspic img{
+
+  width: 95%;
+  border-radius: 30px;
+  border: 3px black solid; 
+  
+}
+
+
+
+
+#anstag1{
+
+  color: blueviolet;
+  font-size: 35px;
+
+}
+
+#maddy {
+
+  display: block;
+
+}
+
+
+#mad10 li{
+  position: relative;
+  left: 0px;
+}
+
+#mad11 ul{
+
+position: relative;
+left: -70px;
+
+}
